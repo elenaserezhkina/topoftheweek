@@ -1,9 +1,9 @@
-# topoftheweek 
+# 🧠topoftheweek 🧠
 
 
 
 ## Basic Java Script - Variables
-#### variables are containers for storing data values
+#### 📦 Variables are containers for storing data values
 
 ### Declering variables : 
 - unique name (identifiers)
@@ -21,10 +21,10 @@
 - objects and more
 
 ### Declering variables 
-### let - 
+### LET
 this keyword signals that the variable can be re-assigned a different value (CAN be changed)
-### const - 
-CAN NOT be reassigned 
+### CONST
+CAN *NOT* be reassigned 
 variables can be declared without a value
 
 ##### String concatanation with variables 
@@ -36,16 +36,17 @@ variables can be declared without a value
                console.log( ` My name is ${myName} ` );
 
 
-## SCOPE - defines where variable can be accessed or referenced
+## ⭐ SCOPE ⭐
+- defines where variable can be accessed or referenced
 
 {...}block - cod found inside a set of curly brackets. Blocks help to group 1 or more statements together. 
-### Global scope - global variables - 
+### ⭐ Global scope (global variables)
 variables declared *outside* of the block. (can be accesed by any code in the program)
 
-### Block scope - local variables - 
+### ⭐ Block scope (local variables)
 variable defined *inside* of the block, it's only accesable from inside the block () withing curly brackets.(good practice)
 
-### Scope polution -
+### ✨✨Scope polution ✨✨
 too many global variables in the global scope. Messy code
 
 
@@ -64,15 +65,14 @@ let elements = document.getElement*s*ByTagName("name")
 ### 3. by class 
 let elements = document.getElement*s*ByClassName("name")
 
-### Most useful 
-    documents.querySelectorAll(".class")
+### Most useful  : 
+ ❗   documents.querySelectorAll(".class")
 return all elements withing that class (a collection, need to use loop to go through every element)
 
-    documents.querySelectorAll("#tag")
+ ❗  documents.querySelectorAll("#tag")
 
 ### To manipulate html content 
-examples :
-
+ex:
 - .innerHTML() - adding html tags
 - .textContent() 
 - .createElement()
@@ -83,15 +83,18 @@ examples :
 
 
 
-## Arrays
+## Arrays 
+📦 = [🥝,🍌,🥚,🍩];
+
 Used to store multiple values in a single variable, in square brackets, can be storred in a variable.
 
+0️⃣❗Arrays are zero-indexed: the first element of an array is at index 0 , and the last element is at the index equal to the value of the array's length property minus 1
 
-syntax
+Any type of data can be included in an Array :
 
           let myArray = ["example", 3, true, "another example but longer", 666 ]
 
-### Accesing elements : 
+### Accessing elements : 
       
                let myArray = ["example", 3, true, "another example but longer", 666 ]
                myArray[2] = 3,
@@ -106,7 +109,7 @@ syntax
 
           let groceries = ["banana", "egg", "milk"];
           groceries[1] = "avocados";
-          console.log(groceries[1])  // output = avocados
+          console.log(groceries)  // output = ["banana", "avocados", "milk"]
      
 Most popular array methods (actions that can be used on arrays)
 - .length
@@ -131,17 +134,24 @@ ex:
                 [true, false],
                 ["yes","no"]
             ];
+            console.log(myArray[3,1])  // output true
+            
+            
+            
 
-console.log(myArray[3,1])  // output true
+more info : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array            
 
 
+## Objects 
+🚗: 
+{🔑💯:100€,
+🔑🟥:red,
+🔑🏎️: no};
 
-## Objects
-#### store various keyed collections
-almost everything can be an object, regular expressions, arrays, functions, objects are also objects :) 
-- 
+#### store various keyed collections, almost everything can be an object, regular expressions, arrays, functions, objects are also objects :) 
 
-Objects have properties (it can be a string, number, boolen etc ) and methods (actions that can be used on objects).
+
+Objects have *properties* (it can be a string, number, boolen etc ) and *methods* (actions that can be used on objects).
 
 ### syntax 
        let/const objectname = { 
@@ -172,7 +182,9 @@ Example :
 
 #### More on the topic : 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
-### Looping through objects (FOR ... IN LOOP)
+
+
+### ⭕ Looping through objects (FOR ... IN LOOP) ⭕
 example : 
 
                 const student = {
@@ -186,6 +198,7 @@ example :
                             console.log(propName);
                       };
  
+ more info: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in
  
  
  
