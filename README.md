@@ -118,6 +118,9 @@ Most popular array methods (actions that can be used on arrays)
 - .indexOf()
 - .splice()
 
+### List of methods :
+https://www.w3schools.com/js/js_array_methods.asp
+
 ### Nested arrays - arrays containing other arrays 
 ex:
 
@@ -130,6 +133,7 @@ ex:
             ];
 
 console.log(myArray[3,1])  // output true
+
 
 
 ## Objects
@@ -166,10 +170,8 @@ Example :
 - Object.create, 
 - Object.assign() etc.
 
-#### Full list of methods :
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
-
-
+#### More on the topic : 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 ### Looping through objects (FOR ... IN LOOP)
 example : 
 
