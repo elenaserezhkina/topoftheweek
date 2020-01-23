@@ -20,9 +20,11 @@
 - boolean
 - objects and more
 
-###Declering variables 
-#### let - this keyword signals that the variable can be re-assigned a different value (CAN be changed)
-#### const - CAN NOT be reassigned 
+### Declering variables 
+### let - 
+this keyword signals that the variable can be re-assigned a different value (CAN be changed)
+### const - 
+CAN NOT be reassigned 
 variables can be declared without a value
 
 ##### String concatanation with variables 
