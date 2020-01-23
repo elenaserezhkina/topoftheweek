@@ -105,9 +105,9 @@ groceries[1] = "avocados";
 console.log(groceries[1])  // output = avocados
      
 Most popular array methods (actions that can be used on arrays)
-.length
-.push()
-.pop()
+1. .length
+2. .push()
+3. .pop()
 .shift()
 .unshift()
 .slice()
@@ -117,67 +117,68 @@ Most popular array methods (actions that can be used on arrays)
 ### Nested arrays - arrays containing other arrays 
 ex:
 
-const myArray = [
-  [1,2],
-  [3,4],
-  [5,6]
-  [true, false],
-  ["yes","no"]
-];
+          const myArray = [
+                [1,2],
+                [3,4],
+                [5,6]
+                [true, false],
+                ["yes","no"]
+            ];
+
 console.log(myArray[3,1])  // output true
 
 
 ## Objects
 #### store various keyed collections
-**almost** everything can be an object, regular expressions, arrays, functions, objects are also objects. 
+almost everything can be an object, regular expressions, arrays, functions, objects are also objects. 
 - 
 
 Objects have properties (it can be a string, number, boolen etc ) and methods (actions that can be used on objects).
 
-### SYNTAX -> 
+### SYNTAX 
        let/const **objectname** = { 
               key : property ,
         };
 
 Example :
 
-let avocado = {
-  color inside : "white" ,
-  color outside : "brown" ,
-  origin: "New Zeland" ,
-  taste: "great"
-};
+          let avocado = {
+                color inside : "white" ,
+                color outside : "brown" ,
+                origin: "New Zeland" ,
+                taste: "great"
+           };
 
-let kiwi = {
-  color inside : "green" ,
-  color outside : "brown",
-  origin: "New Zeland",
-  taste: "yummy"
-};
+               let kiwi = {
+                 color inside : "green" ,
+                 color outside : "brown",
+                 origin: "New Zeland",
+                 taste: "yummy"
+               };
 
-Object methods include 
+#### Object methods include 
 Object.keys(), 
 Object.values(), 
 Object.create, 
 Object.assign() etc.
 
-Full list of methods :
+#### Full list of methods :
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
 
 ### Looping through objects (FOR ... IN LOOP)
 example : 
 
-  const student = {
-      name : "Yannic",
-      age : 25,
-      nationality : "swedish",
-      class2020 : true
-   };
+                const student = {
+                   name : "Yannic",
+                   age : 25,
+                   nationality : "swedish",
+                   class2020 : true
+                 };
  
- for (const propName in student){
-    console.log(propName);
- };
+                     for (const propName in student){
+                            console.log(propName);
+                      };
  
  
  
