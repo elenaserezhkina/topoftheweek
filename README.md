@@ -28,12 +28,12 @@ CAN NOT be reassigned
 variables can be declared without a value
 
 ##### String concatanation with variables 
-let myName = "Melina";
-console.log("My name is "+ myName + " .");
+               let myName = "Melina";
+               console.log("My name is "+ myName + " .");
 
 ##### String interpolation 
-const myName = "Linn";
-console.log( ` My name is ${myName} ` );
+               const myName = "Linn";
+               console.log( ` My name is ${myName} ` );
 
 
 ## SCOPE - defines where variable can be accessed or referenced
@@ -53,7 +53,7 @@ too many global variables in the global scope. Messy code
 ## Manipulating the DOM 
 #### (Document Object Model) -the data representation of the objects that comprise the structure and content of a document on the web
 
-###Selecting elements from HTML 
+### Selecting elements from HTML 
 
 ### 1. by ID
 let element = document.getElementById("id")
@@ -87,25 +87,25 @@ examples :
 Used to store multiple values in a single variable, in square brackets, can be storred in a variable.
 
 
-SYNTAX ->
+syntax
 
-let myArray = ["example", 3, true, "another example but longer", 666 ]
+          let myArray = ["example", 3, true, "another example but longer", 666 ]
 
 ### Accesing elements : 
 
-myArray[2] = 3,
-myArray[3] = "true",
-If you try to acces element on index 5 it will be undefined.
+               myArray[2] = 3,
+               myArray[3] = "true",
+               If you try to acces element on index 5 it will be undefined.
 
 ### Accessing individual character :
-let hello = "welcome"
-console.log( hello[6] ) // output = e
+          let hello = "welcome"
+          console.log( hello[6] ) // output = e
 
 ### Update element : 
 
-let groceries = ["banana", "egg", "milk"];
-groceries[1] = "avocados";
-console.log(groceries[1])  // output = avocados
+          let groceries = ["banana", "egg", "milk"];
+          groceries[1] = "avocados";
+          console.log(groceries[1])  // output = avocados
      
 Most popular array methods (actions that can be used on arrays)
 - .length
@@ -138,7 +138,7 @@ almost everything can be an object, regular expressions, arrays, functions, obje
 
 Objects have properties (it can be a string, number, boolen etc ) and methods (actions that can be used on objects).
 
-### SYNTAX 
+### syntax 
        let/const **objectname** = { 
               key : property ,
         };
