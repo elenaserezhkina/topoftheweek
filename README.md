@@ -39,18 +39,21 @@ console.log( ` My name is ${myName} ` );
 ## SCOPE - defines where variable can be accessed or referenced
 
 {...}block - cod found inside a set of curly brackets. Blocks help to group 1 or more statements together. 
-### Global scope - global variables - variables declared *outside* of the block. (can be accesed by any code in the program)
+### Global scope - global variables - 
+variables declared *outside* of the block. (can be accesed by any code in the program)
 
-### Block scope - local variables - variable defined *inside* of the block, it's only accesable from inside the block () withing curly brackets.(good practice)
+### Block scope - local variables - 
+variable defined *inside* of the block, it's only accesable from inside the block () withing curly brackets.(good practice)
 
-### Scope polution - too many global variables in the global scope. Messy code
+### Scope polution -
+too many global variables in the global scope. Messy code
 
 
 
 ## Manipulating the DOM 
 #### (Document Object Model) -the data representation of the objects that comprise the structure and content of a document on the web
 
-Selecting elements from HTML 
+###Selecting elements from HTML 
 
 ### 1. by ID
 let element = document.getElementById("id")
@@ -61,20 +64,20 @@ let elements = document.getElement*s*ByTagName("name")
 ### 3. by class 
 let elements = document.getElement*s*ByClassName("name")
 
-### Most useful ->
+### Most useful 
 documents.querySelectorAll(".class")
 both return all elements withing that class (a collection)
 
 documents.querySelectorAll("#tag")
 
-To manipulate html content use 
+### To manipulate html content use 
 examples :
 
-.innerHTML() - adding html tags
-.textContent() 
-.createElement()
-.removeChild()
-.appendChild()
+- .innerHTML() - adding html tags
+- .textContent() 
+- .createElement()
+- .removeChild()
+- .appendChild()
 
 
 
@@ -105,14 +108,14 @@ groceries[1] = "avocados";
 console.log(groceries[1])  // output = avocados
      
 Most popular array methods (actions that can be used on arrays)
-1. .length
-2. .push()
-3. .pop()
-.shift()
-.unshift()
-.slice()
-.indexOf()
-.splice()
+- .length
+- .push()
+- .pop()
+- .shift()
+- .unshift()
+- .slice()
+- .indexOf()
+- .splice()
 
 ### Nested arrays - arrays containing other arrays 
 ex:
@@ -157,10 +160,10 @@ Example :
                };
 
 #### Object methods include 
-Object.keys(), 
-Object.values(), 
-Object.create, 
-Object.assign() etc.
+- Object.keys(), 
+- Object.values(), 
+- Object.create, 
+- Object.assign() etc.
 
 #### Full list of methods :
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
