@@ -134,13 +134,13 @@ console.log(myArray[3,1])  // output true
 
 ## Objects
 #### store various keyed collections
-almost everything can be an object, regular expressions, arrays, functions, objects are also objects. 
+almost everything can be an object, regular expressions, arrays, functions, objects are also objects :) 
 - 
 
 Objects have properties (it can be a string, number, boolen etc ) and methods (actions that can be used on objects).
 
 ### syntax 
-       let/const **objectname** = { 
+       let/const objectname = { 
               key : property ,
         };
 
