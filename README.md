@@ -2,9 +2,7 @@
 
 
 
-## Introduction to JS
-
-## Variables
+## Basic Java Script - Variables
 #### variables are containers for storing data values
 
 ### Declering variables : 
