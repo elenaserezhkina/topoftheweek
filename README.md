@@ -65,12 +65,12 @@ let elements = document.getElement*s*ByTagName("name")
 let elements = document.getElement*s*ByClassName("name")
 
 ### Most useful 
-documents.querySelectorAll(".class")
-both return all elements withing that class (a collection)
+    documents.querySelectorAll(".class")
+return all elements withing that class (a collection, need to use loop to go through every element)
 
-documents.querySelectorAll("#tag")
+    documents.querySelectorAll("#tag")
 
-### To manipulate html content use 
+### To manipulate html content 
 examples :
 
 - .innerHTML() - adding html tags
