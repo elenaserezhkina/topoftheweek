@@ -92,10 +92,11 @@ syntax
           let myArray = ["example", 3, true, "another example but longer", 666 ]
 
 ### Accesing elements : 
-
+      
+               let myArray = ["example", 3, true, "another example but longer", 666 ]
                myArray[2] = 3,
                myArray[3] = "true",
-               If you try to acces element on index 5 it will be undefined.
+               (If you try to acces element on index 5 it will be undefined.)
 
 ### Accessing individual character :
           let hello = "welcome"
@@ -120,7 +121,7 @@ Most popular array methods (actions that can be used on arrays)
 ### Nested arrays - arrays containing other arrays 
 ex:
 
-          const myArray = [
+              const myArray = [
                 [1,2],
                 [3,4],
                 [5,6]
