@@ -124,7 +124,7 @@ Most popular array methods (actions that can be used on arrays)
 - .indexOf()
 - .splice()
 
-### List of methods :
+### List of popular methods :
 https://www.w3schools.com/js/js_array_methods.asp
 
 ### Nested arrays - arrays containing other arrays 
