@@ -1,8 +1,9 @@
-# 🧠topoftheweek 🧠
+# 🧠 topoftheweek  🧠
 
 
 
-## Basic Java Script - Variables
+## Basic Java Script 
+# Variables
 #### 📦 Variables are containers for storing data values
 
 ### Declering variables : 
@@ -40,11 +41,13 @@ variables can be declared without a value
 - defines where variable can be accessed or referenced
 
 {...}block - cod found inside a set of curly brackets. Blocks help to group 1 or more statements together. 
-### ⭐ Global scope (global variables)
+### ⭐ 1. Global scope (global variables)
 variables declared *outside* of the block. (can be accesed by any code in the program)
 
-### ⭐ Block scope (local variables)
+### ⭐ 2. Block scope (local variables)
 variable defined *inside* of the block, it's only accesable from inside the block () withing curly brackets.(good practice)
+
+
 
 ### ✨✨Scope polution ✨✨
 too many global variables in the global scope. Messy code
@@ -84,7 +87,7 @@ ex:
 
 
 ## Arrays 
-📦 = [🥝,🍌,🥚,🍩];
+📦 = [🥝, 🍌, 🥚, 🍩];
 
 Used to store multiple values in a single variable, in square brackets, can be storred in a variable.
 
@@ -97,8 +100,8 @@ Any type of data can be included in an Array :
 ### Accessing elements : 
       
                let myArray = ["example", 3, true, "another example but longer", 666 ]
-               myArray[2] = 3,
-               myArray[3] = "true",
+               myArray[2] = true,
+               myArray[4] = "666",
                (If you try to acces element on index 5 it will be undefined.)
 
 ### Accessing individual character :
@@ -142,10 +145,14 @@ ex:
 more info : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array            
 
 
+
+
+
+
 ## Objects 
 🚗: 
-{🔑💯:100€,
-🔑🟥:red,
+{🔑:100€,
+🔑:red,
 🔑🏎️: no};
 
 #### store various keyed collections, almost everything can be an object, regular expressions, arrays, functions, objects are also objects :) 
@@ -164,7 +171,7 @@ Example :
                 color inside : "white" ,
                 color outside : "brown" ,
                 origin: "New Zeland" ,
-                taste: "great"
+                taste: "omg"
            };
 
                let kiwi = {
@@ -178,7 +185,8 @@ Example :
 - Object.keys(), 
 - Object.values(), 
 - Object.create, 
-- Object.assign() etc.
+- Object.assign() 
+etc.
 
 #### More on the topic : 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
@@ -203,6 +211,11 @@ example :
  
  
  
+ Useful links :) 
+ 1. https://developer.mozilla.org/en-US/
+ 2. https://www.w3schools.com/
+ 3. https://caniuse.com/#
+ 4. https://htmlcheatsheet.com/js/
  
  
  
